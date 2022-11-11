@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/gstest/static/css/main.fe11424c.css",
+    "main.js": "/gstest/static/js/main.597ead86.js",
+    "static/media/Logo.svg": "/gstest/static/media/Logo.04543bc0dab3b2ceb099de61dc0c81af.svg",
+    "static/media/home6.svg": "/gstest/static/media/home6.b8b331e10076eb10ae64c697a554a0b0.svg",
+    "static/media/mobile.svg": "/gstest/static/media/mobile.d47129550c835c3e1a84464df8428751.svg",
+    "static/media/landscapes.svg": "/gstest/static/media/landscapes.0086fd8607bb14863c3ec78059407435.svg",
+    "static/media/interior.svg": "/gstest/static/media/interior.fb3f683b29527e99d6ee004b33b600d4.svg",
+    "static/media/architecture.svg": "/gstest/static/media/architecture.904f2a5072b73e2cc060a8ab591102a5.svg",
+    "index.html": "/gstest/index.html",
+    "static/media/right-arrow.svg": "/gstest/static/media/right-arrow.63b924913cfd887593d54baaca54deed.svg",
+    "static/media/left-arrow.svg": "/gstest/static/media/left-arrow.1cd518c750837e07e4f48cdcbb6b77e2.svg",
+    "main.fe11424c.css.map": "/gstest/static/css/main.fe11424c.css.map",
+    "main.597ead86.js.map": "/gstest/static/js/main.597ead86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe11424c.css",
+    "static/js/main.597ead86.js"
+  ]
+}

@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Canva Sans, Open Sans, sans-serif;
+  outline: none;
+}
+/*   font-family: "Merriweather", serif; */
+
+:root {
+  --brandColor: #f7ecde;
+  --white: #fff;
+  --fontColor: #242424;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* HEADER */
+.header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--brandColor);
+  padding: 1.2rem 13rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  z-index: 1;
+}
+
+.nav-bar {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  align-items: center;
+  color: #6e6e6e;
+  font-family: Canva Sans, Open Sans, sans-serif !important;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 1.5rem;
+  align-items: center;
+  color: #6e6e6e;
+  font-weight: 700;
+  font-family: Canva Sans, Open Sans, sans-serif !important;
+}
+
+.logo {
+  font-family: "Merriweather", serif;
+  cursor: pointer;
+}
+
+.contact-btn {
+  padding: 0.9rem 2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  align-items: center;
+  color: white;
+  /* font-weight: 700; */
+  font-family: Canva Sans, Open Sans, sans-serif !important;
+  background-color: var(--fontColor);
+}
+
+/* Home */
+
+.firstpage-wrapper {
+  display: flex;
+  height: 100vh;
+  background-color: var(--brandColor);
+  position: relative;
+  overflow: hidden;
+}
+
+.firstpage-left-wrapper {
+  width: 50%;
+  padding: 23rem 1rem 13rem 13rem;
+}
+
+.firstpage-left-wrapper h1 {
+  font-size: 5rem;
+  font-family: "Merriweather", serif;
+}
+
+.firstpage-left-wrapper p {
+  font-size: 1.9rem;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
+  color: #6e6e6e;
+  font-family: Canva Sans, Open Sans, sans-serif !important;
+}
+
+.firstpage-left-wrapper button {
+  border: none;
+  padding: 1.5rem 2.2rem;
+  font-family: Canva Sans, Open Sans, sans-serif !important;
+  cursor: pointer;
+  background-color: var(--fontColor);
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.firstpage-img {
+  height: 95%;
+  transform: rotate(-8deg);
+  position: absolute;
+  left: 65rem;
+  top: 10rem;
+  overflow: hidden;
+}
+
+/* Home page 2 */
+.secondpage-wrapper {
+  height: 100vh;
+  display: flex;
+  padding-top: 2rem;
+  padding-right: 13rem;
+}
+
+.secondpage-wrapper img {
+  transform: scale(0.65);
+  padding-left: 3rem;
+}
+
+.secondpage-wrapper h2 {
+  font-size: 5rem;
+  font-family: "Merriweather", serif;
+}
+
+.secondpage-wrapper-right {
+  padding-top: 12rem;
+  padding-left: 2.5rem;
+}
+
+.secondpage-wrapper p {
+  font-size: 1.9rem;
+  padding-top: 1.8rem;
+  padding-bottom: 2.9rem;
+  color: #6e6e6e;
+  font-family: Canva Sans, Open Sans, sans-serif !important;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 11rem 11rem 11rem;
+  font-family: Canva Sans, Open Sans, sans-serif !important;
+  column-gap: 2.5rem;
+}
+
+.grid-items {
+  align-self: center;
+  padding: 1rem 0;
+}
+
+.grid-items.figures {
+  font-size: 4rem;
+  color: #505050;
+}
+
+.grid-items.achievement {
+  font-size: 1.9rem;
+  color: #6e6e6e;
+}
+
+/* Third Home Page */
+
+.thirdpage-container {
+  height: 100vh;
+  background-color: var(--brandColor);
+  padding: 10rem 13rem 10rem 13rem;
+}
+
+.thirdpage-container h3 {
+  font-size: 4rem;
+  font-family: "Merriweather", serif;
+}
+
+.thirdpage-wrapper-right {
+  display: flex;
+  gap: 3rem;
+  padding-top: 7rem;
+}
+
+.thirdpage-wrapper-right img {
+  height: 3.9rem;
+}
+
+.thirdpage-wrapper-right h4 {
+  font-size: 3rem;
+  padding-top: 2rem;
+  font-family: "Merriweather", serif;
+}
+
+.thirdpage-wrapper-right p {
+  color: #6e6e6e;
+  font-family: Canva Sans, Open Sans, sans-serif !important;
+  font-size: 1.9rem;
+  padding-top: 1.5rem;
+}
+
+.thirdpage-wrapper-right button {
+  border: 1px solid var(--fontColor);
+  padding: 0.8rem 1.6rem;
+  margin-top: 3rem;
+  cursor: pointer;
+  background-color: var(--brandColor);
+  color: var(--fontColor);
+  text-align: center;
+}
+
+/* Footer */
+
+.social-links {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.social-link {
+  font-size: 1.3rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+}
+
+.footer-container {
+  font-family: Canva Sans, Open Sans, sans-serif !important;
+  background-color: var(--fontColor);
+  text-align: center;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.247);
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+/* About */
+
+.about-container {
+  background-color: var(--brandColor);
+  padding: 12rem 13rem 13rem 13rem;
+  height: 100vh;
+}
+
+.about-container h2 {
+  font-size: 5rem;
+  background-color: var(--brandColor);
+  font-family: "Merriweather", serif;
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+}
+
+.about-container div {
+  font-family: Canva Sans, Open Sans, sans-serif !important;
+  font-size: 1.9rem;
+  color: #6e6e6e;
+  padding-top: 4rem;
+}
+
+/* Contact Us */
+
+.contactus-container {
+  background-color: var(--brandColor);
+  height: 100vh;
+  padding: 12rem 13rem 13rem 13rem;
+}
+
+.contactus-container h2 {
+  font-size: 5rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+  font-family: "Merriweather", serif;
+}
+
+.contact-wrapper {
+  display: flex;
+  gap: 14rem;
+  padding-top: 6rem;
+}
+
+.contact {
+  font-family: Canva Sans, Open Sans, sans-serif !important;
+  font-size: 1.9rem;
+  color: #6e6e6e;
+  width: 50%;
+}
+
+.contact p em {
+  /* font-style: normal; */
+  font-size: 600 !important;
+}
+
+.contact p {
+  padding-top: 2rem;
+  color: var(--fontColor);
+}
+
+.officeaddr {
+  padding-top: 0 !important;
+}
+
+.contact-desc {
+  color: #6e6e6e !important;
+  padding-bottom: 2rem;
+}
+
+.map {
+  width: 35%;
+  border: 1px solid black;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Projects */
+
+.projects-container {
+  padding: 13rem 13rem 13rem 13rem;
+  height: 100vh;
+}
+
+.projects-container h2 {
+  font-size: 5rem;
+  font-family: "Merriweather", serif;
+  padding-bottom: 2rem;
+}
+
+.tabs-container {
+  display: flex;
+  width: 100%;
+  background-color: #6e6e6e27;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+
+.content-container {
+  width: 100%;
+  height: 90%;
+}
+
+.tab {
+  cursor: pointer;
+  width: 50%;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  border: 1px solid rgba(63, 63, 63, 0.185);
+  color: var(--fontColor);
+}
+
+.active-tab {
+  background-color: white;
+  border-bottom: 1px solid white;
+  border-top: 3px solid rgba(92, 92, 131, 0.562);
+}
+
+.tab:not(:last-child) {
+  border-right: none;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(63, 63, 63, 0.185);
+  border-top: none !important;
+  display: none;
+}
+
+.active-content {
+  display: flex;
+  gap: 4rem;
+  padding: 3rem;
+}
+
+.projectile-container {
+  height: 20rem;
+  width: 18rem;
+  box-shadow: 2px 2px 10px #6e6e6e;
+  cursor: pointer;
+}
+
+.projectile-container img {
+  height: 85%;
+  width: 100%;
+}
+
+.pro-img {
+  object-fit: cover;
+}
+
+.projectile-container div {
+  font-size: 1.3rem;
+  height: 15%;
+  padding: 0.5rem;
+}
+
+/* Project Details////////////////////////////////////////// */
+
+.projectdetail-cont {
+  height: 100vh;
+  padding: 15rem 13rem 13rem 13rem;
+  font-size: 1.5rem;
+  color: var(--fontColor);
+}
+
+.projectname {
+  font-size: 2.2rem;
+  padding-bottom: 3rem;
+  color: var(--fontColor);
+}
+
+.projectplan {
+  height: 10rem;
+  width: 10rem;
+  background-color: yellow;
+}
